@@ -14,6 +14,7 @@
     
     <body>
         <?php
+            date_default_timezone_set('PRC');
             if ($_GET["action"] == "update") {
                 $local_timestamp = time();
                 $file = fopen("status.txt", "w");
