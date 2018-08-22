@@ -10,6 +10,11 @@
                 font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei";
             }
         </style>
+        <script>
+            setTimeout(function() {
+                location.reload();
+            }, 1000);
+        </script>
     </head>
     
     <body>
